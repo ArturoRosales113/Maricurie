@@ -1,0 +1,90 @@
+/** Fuentes **/
+@font-face {
+	font-family: 'Conv_OratorStd';
+	src: url('../fonts/OratorStd.eot');
+	src: local('☺'), url('../fonts/OratorStd.woff') format('woff'), url('../fonts/OratorStd.ttf') format('truetype'), url('../fonts/OratorStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_PlayfairDisplay-Bold';
+	src: url('../fonts/PlayfairDisplay-Bold.eot');
+	src: local('☺'), url('../fonts/PlayfairDisplay-Bold.woff') format('woff'), url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'), url('../fonts/PlayfairDisplay-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Monthoers';
+	src: url('../fonts/Monthoers.eot');
+	src: local('☺'), url('../fonts/Monthoers.woff') format('woff'), url('../fonts/Monthoers.ttf') format('truetype'), url('../fonts/Monthoers.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Courier New';
+	src: url('../fonts/Courier New.eot');
+	src: local('☺'), url('../fonts/Courier New.woff') format('woff'), url('../fonts/Courier New.ttf') format('truetype'), url('../fonts/Courier New.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/**  CSS  **/
+body{
+	padding: 0 0 0 0;
+	margin: 0;
+}
+
+header{
+	
+}
+nav{
+	position: absolute;
+	width: 100%;
+	background-color: #8F1538;
+	}
+
+#barra{
+	width: 50%;
+	position: relative;
+	float: right;
+	padding-right: 100px;
+}	
+a{
+	font-family: 'Conv_Monthoers';
+	color: white;
+	text-align: center;
+	position: relative;
+	float: right;
+	padding:10px;
+}
+
+
+.mensaje{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+
+.cuerpo{
+	
+	font-family: 'Conv_Courier New';
+	width: 80%;
+	text-align: justify;
+}
+	
+
+#bienvenida{
+	padding-top: 200px;
+	line-height: 1.5;
+
+}
+
+.contenedortexto{
+	font-family: 'Conv_OratorStd';
+	text-align: justify;
+}
