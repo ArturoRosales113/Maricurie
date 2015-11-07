@@ -28,7 +28,7 @@ class Blog extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['titulo','path', 'texto','tags'];
+    protected $fillable = ['titulo','texto','path','tags'];
 
 
     public function setPathAttribute($path)

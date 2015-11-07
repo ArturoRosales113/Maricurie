@@ -8,7 +8,7 @@
 	<div class="form-group">
 	{!!Form::label('Titulo')!!}
 	<br>
-	{!!Form::text('titulo',null,['class'=>'form-contol','placeholder'=>'Mi Blog ']);!!}
+	{!!Form::text('titulo', null,['class'=>'form-contol','placeholder'=>'Mi Blog ']);!!}
 	</div>
 	<div class="form-group">
 		{!!Form::label('Photo','Imagen')!!}

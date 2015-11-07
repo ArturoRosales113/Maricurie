@@ -41,11 +41,6 @@ body{
 header{
 	
 }
-nav{
-	position: absolute;
-	width: 100%;
-	background-color: #8F1538;
-	}
 
 #barra{
 	width: 50%;
@@ -55,14 +50,24 @@ nav{
 }	
 a{
 	font-family: 'Conv_Monthoers';
-	color: white;
+	color: #8F1538;
 	text-align: center;
 	position: relative;
 	float: right;
 	padding:10px;
 }
 
+div img{
+	width: 100%;
+	position: absolute;
+	top:50;
+	left: 0;
+}
 
+.promoindex{
+	background-image:url("assets/{{$promo->path}}");
+
+}
 .mensaje{
 	display: flex;
 	align-items: center;

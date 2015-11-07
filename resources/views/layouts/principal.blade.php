@@ -11,12 +11,12 @@
 {!!Html::style('css/metisMenu.min.css')!!}
 {!!Html::style('css/sb-admin-2.css')!!}
 {!!Html::style('css/font-awesome.min.css')!!}
-{{--{!!Html::style('css/laboratorios.css')!!}--}}
+{!!Html::style('css/laboratorios.css')!!}
 
 </head>
 <body>
  
-        <div id="page-wrapper">
+        <div class="container-fluid">
  			@yield('content')	
         </div>
 

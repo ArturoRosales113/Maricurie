@@ -17,7 +17,10 @@ class Frontcontroller extends Controller
      */
     public function index()
     {
-        return view('usuario.index');//
+    $promos = Promocion::all();
+    return view('usuario.index')
+    ->with('promos',$promos);   
+//
     }
 
     public function mariecurie()
